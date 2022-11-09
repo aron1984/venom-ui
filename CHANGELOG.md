@@ -1,13 +1,8 @@
-# v1.0.1 (Wed Nov 09 2022)
 
-#### 🐛 Bug Fix
+# v0.1.0 (Tue Mar 09 2021)
 
-- config [#1](https://github.com/aron1984/venom-ui/pull/1) ([@aron1984](https://github.com/aron1984))
-
-#### ⚠️ Pushed to `main`
-
-- first commit ([@aron1984](https://github.com/aron1984))
+- Created first version of the design system, with `Button` components.
 
 #### Authors: 1
 
-- Alejandro ([@aron1984](https://github.com/aron1984))
+- [your-username](https://github.com/your-username)
