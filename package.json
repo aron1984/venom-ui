@@ -2,6 +2,11 @@
   "name": "venom1984",
   "version": "0.1.0",
   "private": false,
+  "description": "Web components",
+  "main": "dist/index.js",
+  "repository": "git@github.com:aron1984/venom-ui.git",
+  "author": "aron1984 <ronconialejandro@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,28 +18,17 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "build": "cross-env NODE_ENV=production BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
-  },
-  "babel": {
-    "presets": [
-      [
-        "react-app",
-        {
-          "absoluteRuntime": false
-        }
-      ]
-    ]
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ],
-    "parser": "@typescript-eslint/parser",
     "overrides": [
       {
         "files": [
@@ -60,6 +54,10 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.18.6",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",
@@ -72,13 +70,9 @@
     "@storybook/testing-library": "^0.0.13",
     "auto": "^10.37.6",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.11.4",
     "cross-env": "^7.0.3",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
-  },
-  "description": "Web components",
-  "main": "dist/index.js",
-  "repository": "git@github.com:aron1984/venom-ui.git",
-  "author": "aron1984 <ronconialejandro@gmail.com>",
-  "license": "MIT"
+  }
 }
