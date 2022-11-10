@@ -1,17 +1,11 @@
 {
-  "name": "venom1984",
-  "version": "0.1.0",
+  "name": "@aron1984/venom1984",
+  "version": "0.1.1",
   "private": false,
   "description": "Web components",
   "main": "dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aron1984/venom-ui.git"
-  },
-  "author": {
-    "name": "aron1984",
-    "email": "ronconialejandro@gmail.com"
-  },
+  "repository": "git+ssh://git@github.com/aron1984/venom-ui.git",
+  "author": "aron1984 <ronconialejandro@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
